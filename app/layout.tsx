@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { Inter, Lora, Poppins } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "400", "500", "600", "700", "800", "300"],
-});
+// const inter = Inter({ subsets: ["latin"] });
+// const poppins = Poppins({
+//   subsets: ["latin"],
+//   weight: ["100", "200", "400", "500", "600", "700", "800", "300"],
+// });
 
 export const metadata: Metadata = {
   title: "Sushi",

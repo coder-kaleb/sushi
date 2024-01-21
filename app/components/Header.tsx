@@ -6,23 +6,23 @@ export default function Header() {
     <header className="z-50 py-7">
       <nav className="flex items-center justify-between">
         <div
-          className={`text-md flex text-xl font-semibold transition duration-500 hover:text-orange-500  ${lora.className} gap-1`}
+          className={`text-md flex text-xl font-semibold transition duration-500 hover:text-orange text-light-gray  ${lora.className} gap-1`}
         >
           <img src="logo.png" alt="logo" className="h-7 w-7 object-contain" />
           Sushi
         </div>
         <ul className="flex items-center gap-12  ">
-          <div className="hidden items-center gap-12 md:flex">
-            <li className=" cursor-pointer text-base font-medium capitalize text-orange-500 transition duration-500">
+          <div className="hidden items-center text-lg gap-12 md:flex">
+            <li className=" cursor-pointer  font-medium capitalize text-orange transition duration-500">
               home
             </li>
-            <li className=" cursor-pointer text-base font-semibold capitalize text-gray-800 transition duration-500 hover:text-orange-500">
+            <li className=" cursor-pointer  font-semibold capitalize text-gray-800 transition duration-500 hover:text-orange">
               about us
             </li>
-            <li className=" cursor-pointer text-base font-semibold capitalize text-gray-800 transition duration-500 hover:text-orange-500">
+            <li className=" cursor-pointer  font-semibold capitalize text-gray-800 transition duration-500 hover:text-orange">
               popular
             </li>
-            <li className=" cursor-pointer text-base font-semibold capitalize text-gray-800 transition duration-500 hover:text-orange-500">
+            <li className=" cursor-pointer  font-semibold capitalize text-gray-800 transition duration-500 hover:text-orange">
               recently
             </li>
           </div>
