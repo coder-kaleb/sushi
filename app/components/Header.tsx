@@ -1,14 +1,9 @@
 import { FiMoon } from "react-icons/fi";
 import { HiOutlineSquares2X2 } from "react-icons/hi2";
-import { Lora, Poppins } from "@next/font/google";
-const lora = Lora({ subsets: ["latin"], variable: "--font-lora" });
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
+import { lora } from "../fonts";
 export default function Header() {
   return (
-    <header className="py-7">
+    <header className="z-50 py-7">
       <nav className="flex items-center justify-between">
         <div
           className={`text-md flex text-xl font-semibold transition duration-500 hover:text-orange-500  ${lora.className} gap-1`}
