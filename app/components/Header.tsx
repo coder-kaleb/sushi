@@ -3,16 +3,16 @@ import { HiOutlineSquares2X2 } from "react-icons/hi2";
 import { lora } from "../fonts";
 export default function Header() {
   return (
-    <header className="z-50 py-7">
-      <nav className="flex items-center justify-between">
+    <header className="fixed inset-x-0 top-0 z-[99999] w-full px-4 sm:px-10  md:px-16 xl:px-32 items-center bg-[#FFF1EB] py-4 ">
+      <nav className="flex items-center justify-between ">
         <div
-          className={`text-md flex text-xl font-semibold transition duration-500 hover:text-orange text-light-gray  ${lora.className} gap-1`}
+          className={`text-md flex text-xl font-semibold text-light-gray transition duration-500 hover:text-orange  ${lora.className} gap-1`}
         >
           <img src="logo.png" alt="logo" className="h-7 w-7 object-contain" />
           Sushi
         </div>
         <ul className="flex items-center gap-12  ">
-          <div className="hidden items-center text-lg gap-12 md:flex">
+          <div className="hidden items-center gap-12 text-lg md:flex">
             <li className=" cursor-pointer  font-medium capitalize text-orange transition duration-500">
               home
             </li>
