@@ -2,7 +2,7 @@ import { dancing_font, lora, poppins } from "../fonts";
 import Image from "next/image";
 export default function About() {
   return (
-    <section className=" relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 pt-12 text-center lg:grid-cols-2 lg:gap-20 lg:text-left">
+    <section className=" relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 pt-12 text-center lg:grid-cols-2 lg:gap-20 lg:text-left ">
       <Image
         src="/leaf-branch-1.png"
         alt="leaf-image"
