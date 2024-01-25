@@ -1,21 +1,12 @@
 import { dancing_font, lora, poppins } from "../fonts";
-import Image from "next/image";
+
 export default function About() {
   return (
-    <section className=" relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 pt-12 text-center lg:grid-cols-2 lg:gap-20 lg:text-left ">
-      <Image
-        src="/leaf-branch-1.png"
-        alt="leaf-image"
-        width={130}
-        height={130}
-        className="absolute -right-16 bottom-0 object-contain opacity-40"
-      />
-      <Image
-        src="/about-sushi.png"
+    <section className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 text-center lg:grid-cols-2 lg:gap-20 lg:text-left">
+      <img
+        src="about-sushi.png"
         alt="about-sushi"
-        width={500}
-        height={400}
-        className=" mx-auto object-contain"
+        className=" mx-auto object-contain max-lg:max-w-sm"
       />
       <div className=" flex flex-col gap-4 capitalize">
         <span className={`${dancing_font.className} text-2xl text-orange`}>
@@ -26,17 +17,16 @@ export default function About() {
         >
           <span className="flex items-center justify-center gap-1 lg:justify-start">
             We Provide{" "}
-            <Image
-              width={10}
-              height={10}
-              src="/about-sushi-title.png"
+            <img
+              src="about-sushi-title.png"
               alt="sushi-image"
+              className="w-10"
             />
           </span>
           <span>Healthy Food</span>
         </h2>
         <p
-          className={`${poppins.className} max-w-3xl text-[12px] font-normal text-[#7F6C64] max-lg:mx-auto max-lg:leading-5 lg:max-w-sm lg:text-base lg:font-medium`}
+          className={`${poppins.className} max-w-3xl text-[12px] font-normal lg:font-medium text-[#7F6C64] max-lg:mx-auto lg:max-w-sm lg:text-base max-lg:leading-5`}
         >
           Food comes to us from our relatives, whether they have wings or roots.
           This is how we consider food, it also has a culture. It has a history
