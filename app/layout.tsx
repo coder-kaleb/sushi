@@ -20,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className=" overflow-x-hidden bg-[#FFF1EB] min-h-screen">{children}</body>
+      <body className=" min-h-screen overflow-x-hidden bg-[#FFF1EB]">
+        {children}
+      </body>
     </html>
   );
 }
