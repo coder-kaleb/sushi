@@ -1,13 +1,18 @@
 import { dancing_font, lora, poppins } from "../app/fonts";
+import aboutSushi from "../public/about-sushi.png";
 import Image from "next/image";
 export default function About() {
   return (
     <section className="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 pt-20 text-center lg:grid-cols-2 lg:gap-20 lg:text-left">
       <Image
-        src="/about-sushi.png"
+        src={aboutSushi}
         alt="about-sushi"
         width={500}
         height={400}
+        style={{
+          width: "100%",
+          height: "auto",
+        }}
         className=" mx-auto object-contain"
       />
       <div className=" flex flex-col gap-4 capitalize">

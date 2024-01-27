@@ -1,6 +1,6 @@
 import { Lora, Poppins, Dancing_Script } from "next/font/google";
 
-export const lora = Lora({ subsets: ["latin"], variable: "--font-lora" });
+export const lora = Lora({ subsets: ["latin"]});
 export const dancing_font = Dancing_Script({ subsets: ["latin"] });
 export const poppins = Poppins({
   subsets: ["latin"],
