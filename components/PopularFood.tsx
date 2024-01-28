@@ -7,17 +7,17 @@ import Img3 from "../public/popular-sushi-rolls.png";
 
 function PopularFood() {
   return (
-    <section className="container mx-auto pt-28">
+    <section className="mx-auto pt-28 pb-8">
       <div className="text-center capitalize">
         <h2 className={`${dancing_font.className} mb-1 text-2xl text-orange`}>
           the best food
         </h2>
         <h1 className={`${lora.className} text-4xl`}>Popular Dishes</h1>
       </div>
-      <div className="grid grid-cols-3 pt-20">
+      <div className="grid lg:grid-cols-3 justify-items-center max-sm:gap-y-16 justify-center grid-cols-1 md:grid-cols-2 pt-20 gap-y-20">
         <FoodDetail imgUrl={Img1} title="Onigiri" price={10.99} />
         <FoodDetail imgUrl={Img2} title="Spring Rolls" price={20.99} />
-        <FoodDetail imgUrl={Img3} title="Sushi Rolls" price={45.99} />
+        <FoodDetail imgUrl={Img3} title="Sushi Rolls" price={45.99}   />
       </div>
     </section>
   );

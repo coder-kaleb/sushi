@@ -5,11 +5,12 @@ interface Props {
   imgUrl: StaticImageData;
   title: string;
   price: number;
+  style?: string;
 }
 
-function FoodDetail({ imgUrl, title, price }: Props) {
+function FoodDetail({ imgUrl, title, price, style }: Props) {
   return (
-    <div className="relative flex w-72 py-4 flex-col items-center justify-center gap-1 rounded-lg bg-white pt-28 text-center shadow-xl">
+    <div className={`relative flex w-72 justify-self-center py-4 flex-col items-center gap-1 rounded-2xl bg-[#FFF5F0] pt-28 text-center shadow-md `}>
       <Image
         src={imgUrl}
         alt="food-image"
