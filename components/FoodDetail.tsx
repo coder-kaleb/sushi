@@ -25,7 +25,7 @@ function FoodDetail({ imgUrl, title, price, style }: Props) {
       </div>
       <div className={`${poppins.className} relative flex items-center gap-10`}>
         <p className=" text-orange text-xl font-semibold">${price}</p>
-        <div className="absolute -right-24 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-orange text-center text-white transition hover:shadow-md">
+        <div className="absolute -right-24 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-orange text-center text-white transition hover:bg-amber-700">
           <CiShoppingCart className="h-5 w-5" strokeWidth={1.4} />
         </div>
       </div>
