@@ -5,20 +5,20 @@ import recentFood from "../public/recently-salmon-sushi.png";
 import Button from "./Button";
 function RecentFood() {
   return (
-    <section className="pt-28 min-h-screen" id="recent">
-      <div className="flex flex-col justify-center lg:flex-row justify-center items-center  gap-16">
+    <section className="min-h-screen pt-28" id="recent">
+      <div className="flex flex-col items-center justify-center gap-16  lg:flex-row">
         <div className=" flex flex-col gap-5 capitalize">
-          <span className={`${dancing_font.className} max-lg:text-center text-3xl text-orange`}>
+          <span
+            className={`${dancing_font.className} text-3xl text-orange max-lg:text-center`}
+          >
             recently added
           </span>
           <h2
-            className={`${lora.className} max-lg:text-center max-w-[360px] text-3xl text-light-gray lg:text-5xl`}
+            className={`${lora.className} max-w-[360px] text-3xl text-light-gray max-lg:text-center lg:text-5xl`}
           >
             Sushi Samurai Salmón Cheese
           </h2>
-          <p
-            className={`${poppins.className} para max-lg:text-left`}
-          >
+          <p className={`${poppins.className} para max-lg:text-left`}>
             Take a look at what's new. And do not deprive yourself of a good
             meal, enjoy and be happy.
           </p>
@@ -26,12 +26,13 @@ function RecentFood() {
             <Button animate={false} />
           </div>
         </div>
-        <div className="">
+        <div className="max-w-2xl">
           <Image
             src={recentFood}
             alt="recent-food"
             className=" object-contain"
-            width={500}
+            // style={{ width: "100%", height: "auto" }}
+            width={400}
             height={400}
           />
         </div>
