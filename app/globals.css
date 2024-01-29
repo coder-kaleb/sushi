@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.para {
+    @apply max-w-[400px] text-center font-normal max-lg:mx-auto lg:text-left lg:max-w-[300px] text-[#9b7564]
+}

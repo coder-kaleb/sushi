@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Lora, Poppins } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-
-
+import Nav from "@/components/Nav";
 
 export const metadata: Metadata = {
   title: "Sushi",
@@ -16,9 +14,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className=" min-h-screen overflow-x-hidden bg-[#FFF1EB]">
-      <Header />
+        <Nav />
         {children}
       </body>
     </html>

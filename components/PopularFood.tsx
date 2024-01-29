@@ -7,7 +7,7 @@ import Img3 from "../public/popular-sushi-rolls.png";
 
 function PopularFood() {
   return (
-    <section className="mx-auto pt-28 pb-8">
+    <section className="mx-auto pt-28 pb-8" id="popular">
       <div className="text-center capitalize">
         <h2 className={`${dancing_font.className} mb-1 text-2xl text-orange`}>
           the best food
