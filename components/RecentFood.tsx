@@ -5,8 +5,11 @@ import recentFood from "../public/recently-salmon-sushi.png";
 import Button from "./Button";
 function RecentFood() {
   return (
-    <section className="min-h-screen pt-28" id="recent">
-      <div className="flex flex-col items-center justify-center gap-16  lg:flex-row">
+    <section
+      className="flex min-h-screen w-full items-center justify-center"
+      id="recent"
+    >
+      <div className=" flex w-full flex-col items-center justify-around gap-10 lg:flex-row">
         <div className=" flex flex-col gap-5 capitalize">
           <span
             className={`${dancing_font.className} text-3xl text-orange max-lg:text-center`}
@@ -26,7 +29,7 @@ function RecentFood() {
             <Button animate={false} />
           </div>
         </div>
-        <div className="max-w-2xl">
+        <div className=" ">
           <Image
             src={recentFood}
             alt="recent-food"

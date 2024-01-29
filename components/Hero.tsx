@@ -1,6 +1,5 @@
 import { lora, poppins } from "../app/fonts";
-import { CiLocationArrow1 } from "react-icons/ci";
-import { BiRightArrowAlt } from "react-icons/bi";
+
 import Image from "next/image";
 import heroImg from "../public/home-sushi-rolls2.png";
 import Button from "./Button";
