@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Lora, Poppins } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
 
-// const inter = Inter({ subsets: ["latin"] });
-// const poppins = Poppins({
-//   subsets: ["latin"],
-//   weight: ["100", "200", "400", "500", "600", "700", "800", "300"],
-// });
+
 
 export const metadata: Metadata = {
   title: "Sushi",
@@ -21,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className=" min-h-screen overflow-x-hidden bg-[#FFF1EB]">
+      <Header />
         {children}
       </body>
     </html>

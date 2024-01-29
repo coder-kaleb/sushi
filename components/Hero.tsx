@@ -3,6 +3,7 @@ import { CiLocationArrow1 } from "react-icons/ci";
 import { BiRightArrowAlt } from "react-icons/bi";
 import Image from "next/image";
 import heroImg from "../public/home-sushi-rolls2.png";
+import Button from "./Button";
 export default function Hero() {
   return (
     <section className=" flex min-h-screen justify-center pt-36 text-center  ">
@@ -33,12 +34,7 @@ export default function Hero() {
             improve your day.
           </p>
           <div className="max-lg:mx-auto">
-            <button
-              className={`flex animate-slidein items-center gap-2 rounded-full px-7 py-4 capitalize text-white opacity-0 [--slidein-delay:1000ms] ${poppins.className} group bg-orange font-semibold outline-none max-lg:text-center`}
-            >
-              order now{" "}
-              <BiRightArrowAlt className="relative right-0 top-0 h-7 w-7 transition-all group-hover:-right-1" />
-            </button>
+            <Button />
           </div>
         </div>
         <div className="max-w-2xl flex-1 animate-slidein px-5 opacity-0 [--slidein-delay:300ms] max-lg:flex-grow-0 sm:px-12 md:px-16">

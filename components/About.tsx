@@ -24,10 +24,12 @@ export default function About() {
         >
           <span className="flex items-center justify-center gap-1 lg:justify-start">
             We Provide{" "}
-            <img
-              src="about-sushi-title.png"
+            <Image
+              src="/about-sushi-title.png"
               alt="sushi-image"
-              className="w-10"
+              className="object-contain"
+              width={40}
+              height={40}
             />
           </span>
           <span>Healthy Food</span>
