@@ -1,9 +1,9 @@
 import PopularFood from "@/components/PopularFood";
 import About from "@/components/About";
-import Header from "@/components/Nav";
 import Hero from "@/components/Hero";
 import RecentFood from "@/components/RecentFood";
 import Subscribe from "@/components/Subscribe";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
       <PopularFood />
       <RecentFood />
       <Subscribe />
+      <Footer />
     </main>
   );
 }
