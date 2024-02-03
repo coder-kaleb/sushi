@@ -25,12 +25,12 @@ function Footer() {
             />
             <p>Sushi</p>
           </div>
-          <p className="max-w-[230px] text-lg text-gray-700 ">
+          <p className="md:max-w-[230px] max-w-[280px] text-lg text-gray-700 ">
             Food for the body is not enough. There must be food for the soul.
           </p>
         </div>
 
-        <div className=" w-ful flex flex-col justify-between gap-8 sm:flex-row ">
+        <div className=" w-ful flex flex-col justify-between gap-10 sm:flex-row ">
           <section
             className={`${poppins.className} flex w-full flex-1 gap-11 max-md:gap-9 max-sm:flex-wrap`}
           >
