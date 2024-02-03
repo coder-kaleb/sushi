@@ -23,7 +23,8 @@ export const footerLinks: footerProps[] = [
     title: "Address",
     subChild: [
       "Av. Hacienda 1234 Lima 4321, Perú",
-      "9AM - 11PM Monday to Friday",
+      "9AM - 11PM ",
+      "Monday to Friday"
     ],
   },
 ];
