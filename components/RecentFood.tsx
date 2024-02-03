@@ -19,7 +19,7 @@ function RecentFood() {
           <h2
             className={`${lora.className} max-w-[360px] text-3xl text-light-gray max-lg:text-center lg:text-5xl`}
           >
-            Sushi Samurai Salmón Cheese
+            Sushi Samurai Salmon Cheese
           </h2>
           <p className={`${poppins.className} para max-lg:text-left`}>
             Take a look at whats new. And do not deprive yourself of a good
@@ -29,16 +29,15 @@ function RecentFood() {
             <Button animate={false} />
           </div>
         </div>
-        <div className=" ">
+        <>
           <Image
             src={recentFood}
             alt="recent-food"
             className=" object-contain"
-            // style={{ width: "100%", height: "auto" }}
             width={400}
             height={400}
           />
-        </div>
+        </>
       </div>
     </section>
   );
