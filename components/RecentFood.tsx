@@ -22,7 +22,7 @@ function RecentFood() {
             Sushi Samurai Salmón Cheese
           </h2>
           <p className={`${poppins.className} para max-lg:text-left`}>
-            Take a look at what&apos;s new. And do not deprive yourself of a good
+            Take a look at whats new. And do not deprive yourself of a good
             meal, enjoy and be happy.
           </p>
           <div className=" max-lg:mx-auto">
